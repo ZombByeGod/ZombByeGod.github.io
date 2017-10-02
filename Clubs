@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+    box-sizing: border-box;
+}
+.header {
+    background-color: #B38867;
+    color: #CCB599;
+    padding: 15px;
+	text-align: center;
+	border-radius: 10px;
+}
+body {
+    background-color: #DDBC95;
+}
+.footer {
+    background-color: #B38867;
+    color: white;
+    padding: 15px;
+	clear: both;
+    position: relative;
+    z-index: 10;
+	text-align: center;
+	border-radius: 10px;
+}
+.column {
+    float: left;
+    padding: 15px;
+}
+.menu {
+    width: 25%;
+}
+.content {
+    width: 75%;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 30px;
+    margin-bottom: 20px;
+    background-color: #B38867;
+    color: #CCB599;
+	font-size: 20px;
+	border-radius: 10px;
+}
+.menu li:hover {
+    background-color: #B5784A;
+	border-radius: 25px;
+}
+.column img {
+   padding:1px;
+   border:5px solid #B38867;
+   background-color:#DDBC95;
+   max-width: 2000px;
+   height: 400px;
+}
+.Ad {
+	text-align: right;
+	float: right;
+	padding-top: 260px;
+}
+.column p {
+	font-size: 20px;
+	color: #B38867;
+}
+.column h1 {
+	color: #BB8358;
+}
+.footer p {
+	font-size: 20px;
+	color: #CCB599;
+}
+.footer img {
+   max-width: 60px;
+   height: 34.5px;
+}
+.BOLDCenter-er {
+    text-align: center;
+    font-weight: 70;
+    font-size: 12pt;
+}
+.BoxThing p {
+	color: #DDBC95;
+}
+.Color:hover {
+    background-color: #B5784A;
+}
+.Center {
+	text-align: center;
+	color: #DDBC95;
+}
+.words {
+	color: #BB8358;
+	font-size: 20px;
+}
+.idk {
+    width: 700px;
+    background-color: #B38867;
+    border: 7px solid #B38867;
+    border-radius: 5px;
+    margin: 20px;
+    float: left;
+}
+.idk img {
+	float: right;
+	width: 30%;
+	height: 30%;
+}
+.idk h1 {
+	color: #DDBC95;
+}
+.idk p {
+	color: #DDBC95;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Clubs And Team</h1>
+</div>
+
+<div class="clearfix">
+  <div class="column menu">
+    <ul>
+      <li>Enver Creek</li>
+      <li>Clubs And Team</li>
+      <li>Departments</li>
+    </ul>
+  </div>
+
+  <div class="column content">
+	<div class="words">The clubs are listed below. You will find a general description of the club, meeting times and location. There may also be link that provides additional detail regarding the specific club.<br><br><br></div>
+			<div class="clearfix">
+				<div class="idk">
+					<h1>Dance Team - Ms. Twigg</h1>
+					<img src="https://www.surreyschools.ca/schools/envercreek/Extra-curricular/Clubs/Documents/robotics.jpg">
+					<p>Provide an outlet for dance in a competitive setting.<br>Jr. - Tues/Wed. 3 to 4:30<br>Sr. - Mon 3 to 4:30 Wed. 4:30 to 6 pm<br>Dance Studio</p>
+				</div>
+				<div class="idk">
+					<h1>Green Team - Ms. Kurceba</h1>
+					<img src="https://www.surreyschools.ca/schools/envercreek/PublishingImages/AfterSchool.jpg">
+					<p>Promote an eco-friendly attitudes and practices at EC.<br>Thursdays at LunchRoom 214</p>
+				</div>
+				<div class="idk">
+					<h1>Robotics - Mr. Burroughs</h1>
+					<img src="https://www.surreyschools.ca/schools/envercreek/Extra-curricular/SportsTeams/Documents/Web%20pictures%20004.jpg">
+					<p>Design and produce robots.<br>Participate in competitions<br>Wednesdays 3 to 4pmRoom 114</p>
+				</div>
+
+	</table><br>
+  </div>
+</div>
+
+<div class="footer">
+	<p>Powered by Sahib Inc.</p>
+	<img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/d0f16745969491.5607bc041aaa9.png">
+  </div>
+
+</body>
+</html>
