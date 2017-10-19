@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="new1.css">
+</head>
+<body onscroll="myFunction()" >
+
+<div class="header">
+  <h2>Food</h2>
+  <p>We're The Best Restaurant You'll Ever Eat</p>
+</div>
+<div id="navbar">
+  <a>Home</a>
+  <a class="active">Menu</a>
+  <a>Location</a>
+</div>
+<br><br><br>
+<script>
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+<br>
+<table class="border">
+  <tr bgcolor="#201E1E">
+    <td class="content">Coddled eggs</td>
+    <td class="content">$2.37840895e39</td>
+    <td class="content">This is a real thing, Beleive us.</td>
+  <tr bgcolor="#201E1E">
+    <td class="content">Devils on Horseback</td>
+    <td class="content">$999</td>
+    <td class="content">Our exclusive brakefast dish.</td>
+  <tr bgcolor="#201E1E">
+    <td class="content">Puppy Chow</td>
+    <td class="content">$-323.53</td>
+    <td class="content">This is a human dish.</td>
+  </tr>
+ <br>
+<div class="content">Breakfast</div>
+<table class="border">
+  <tr bgcolor="#201E1E">
+    <td class="content">French Toast with Berry Butter</td>
+    <td class="content">$2.37840895e39</td>
+    <td class="content">We're very freench</td>
+  <tr bgcolor="#201E1E">
+    <td class="content">Ooey-Gooey Cinnamon Buns</td>
+    <td class="content">$999</td>
+    <td class="content">It taste better than it looks (hopefully).</td>
+  <tr bgcolor="#201E1E">
+    <td class="content">Slow-Cooker Vegetarian Chili With Sweet Potatoes</td>
+    <td class="content">$-323.53</td>
+    <td class="content">Our special, Please don't order if you want to live.</td>
+  </tr>
+<br>
+<div class="content">Lunch</div>
+<table class="border">
+  <tr bgcolor="#201E1E">
+    <td class="content">Creme Brulee French Toast</td>
+    <td class="content">$2.37840895e39</td>
+    <td class="content">Imported straight from China.</td>
+  <tr bgcolor="#201E1E">
+    <td class="content">Corned Beef Grilled Cheese Sandwich with Guinness Caramelized Onions</td>
+    <td class="content">$999</td>
+    <td class="content">Our special, it's won serveral awards.</td>
+  <tr bgcolor="#201E1E">
+    <td class="content">Cannellini Bean Vegetarian Meatballs with Tomato Sauce</td>
+    <td class="content">$-323.53</td>
+    <td class="content">It looks better than it tastes.</td>
+  </tr>
+  <div class="content">Dinner</div>
+</table>
+<table class="border">
+  <tr bgcolor="#201E1E">
+    <td class="content">Cauldron Cakes</td>
+    <td class="content">$2.37840895e39</td>
+    <td class="content">Cakes in Cauldron</td>
+  <tr bgcolor="#201E1E">
+    <td class="content">French Toast with Berry Butter</td>
+    <td class="content">$999</td>
+    <td class="content">We like it french.</td>
+  <tr bgcolor="#201E1E">
+    <td class="content">Pumpkin Ginger Cupcakes</td>
+    <td class="content">$-323.53</td>
+    <td class="content">Contains no pumpkins.</td>
+  </tr>
+  <div class="content">Desert</div>
+</table>
+<table class="border">
+  <tr bgcolor="#201E1E">
+    <td class="content">Water</td>
+    <td class="content">$2.37840895e39</td>
+    <td class="content">Simple water.</td>
+  <tr bgcolor="#201E1E">
+    <td class="content">Bottled water</td>
+    <td class="content">$999</td>
+    <td class="content">For long travels.</td>
+  <tr bgcolor="#201E1E">
+    <td class="content">Canned water.</td>
+    <td class="content">$-323.53</td>
+    <td class="content">Because we didn't have enough water.</td>
+  </tr>
+  <div class="content">Beverages</div>
+</table>
+</body>
+</html>
