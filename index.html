@@ -1,7 +1,136 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="https://zombbyegod.github.io/css.html">
+ <style>
+ body {
+  font-size: 28px;
+  background-color: #201E1E;
+  font-family: Verdana,sans-serif;
+  margin:0;
+}
+.header {
+  background-color: #FDFEFf;
+  color: #FDFEFE;
+  padding: 30px;
+  text-align: center;
+  background-image: url("http://www.powerpointhintergrund.com/uploads/food-background-2.jpg");
+  text-shadow: 3px 3px 3px;
+}
+.border {
+	font-size: 20px;
+	padding: 10px 10px;
+	border-width: 2px;
+	background-color: #333333;
+	margin: auto;
+}
+#navbar {
+  overflow: hidden;
+  background-color: #333333;
+  z-index:1;
+}
+#navbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+#navbar a:hover {
+  background-color: #dddddd;
+  color: black;
+}
+#navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.content {
+  padding: 16px;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+.sticky + .content {
+  padding-top: 60px;
+}
+.slideshow-container {
+  position: relative;
+  max-width: 1000px;
+  margin: auto;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+} 
+ </style>
 </head>
 <body onscroll="myFunction()" >
 
