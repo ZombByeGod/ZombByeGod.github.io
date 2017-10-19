@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="new1.css">
+</head>
+<body onscroll="myFunction()" >
+
+<div class="header">
+  <h2>Food</h2>
+  <p>We're The Best Restaurant You'll Ever Eat</p>
+</div>
+<div id="navbar">
+  <a>Home</a>
+  <a>Menu</a>
+  <a class="active">Location</a>
+</div>
+<br><br><br>
+<script>
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+ <h3 class="content">We are open every 7th 1/3rd blood moon at midnight from 11:59 to 12:01.</h3>
+<iframe src="https://www.google.com/maps/d/embed?mid=17YWsthdDFlcBPl9aolFvMqGqBZs" width="1250" height="960"></iframe>
+</body>
+</html>
